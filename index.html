@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            font-size: 16px;
+        }
+        h1,h2,h3{
+            margin-bottom: 1rem;
+        }
+        h1{
+            font-size: 3rem;
+        }
+        h2{
+            font-size: 2.5rem;
+        }
+        h3{
+            font-size: 2rem;
+        }
+        .header{
+            height: 100px;
+            background-color: black;
+        }
+        .slant-bottom_right{
+            width: 100%;
+            padding-bottom: 70px;
+            clip-path: polygon(
+                0% 0%,
+                100% 0%,
+                100% calc(100% - 70px),
+                0% 100%
+            );
+        }
+        .image-bg{
+            width: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .title{
+            padding-top: 30px;
+            padding-left: 30px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            display: block;
+        }
+        .firstbg{
+            background-image:url("./assets/img/crane.jpg");
+            height: 100vh;
+
+        }
+        .rem3-top_bottom{
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+        }
+        
+        .rem2-top_bottom{
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+        .white-bg{
+            background-color: white;
+        }
+        .grey-bg{
+            background-color: grey;
+        }
+        .thirdbg{
+            padding-top: 200px;
+            height: 500px;
+            background-image:url("./assets/img/people.png");
+        }
+        .content2{
+            width: 80%;
+            margin: 0 auto;
+            font-size: 2rem;
+            text-align: center;
+            padding: 50px 0;
+        }
+        .content3{
+            width: 80%;
+            margin: 0 auto;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.2);
+            font-size: 3rem;
+            text-align: center;
+        }
+        p{
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+        .contact-section{
+            height: 400px;
+        }
+        .minus-100_top{
+            margin-top: -100px;
+            padding-top: 150px;
+        }
+        .centerFlex{
+            display: flex;
+            flex-wrap: wrap;
+            width:80%;
+            margin:0 auto;
+            justify-content: space-around;
+            
+        }
+        .contentLink{
+            height: 100px;
+            width: 100px;
+        }
+        .contentLink img{
+            height: 100%;
+            width: 100%;
+        }
+        .bannerHeading{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            font-weight: 900;
+            display: inline-block;
+            width: 40%;
+            color: white;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="./assets/css/logo.css"/> 
+</head>
+<body>
+    <div class="image-bg firstbg">
+        <div class="slant-bottom_right header">
+            <div id="logoSpin">
+                <img src="./assets/img/precision_cogOnly.png" alt="cog" id="cog">
+                <img src="./assets/img/precision_noCog.png" alt="logo no cog">
+            </div>
+        </div>
+        <div class="bannerHeading">
+            <h1>SOMETHING ABOUT BUILDING</h1>
+        </div>
+    </div>
+    <div class="image-bg white-bg">
+        <div class="content2">
+            <p>Lorem ipsum dolor sit amet nostra ultrices tincidunt. Nisl potenti facilisis nascetur laoreet si. Sociosqu potenti elit sodales dictum nunc. Fermentum cras erat duis nec laoreet praesent lacinia. Tempus vel litora cras libero aptent etiam. Risus sodales ante facilisis pharetra litora elementum suscipit non. At dui congue eros scelerisque viverra himenaeos. Elit primis egestas vehicula natoque sociosqu dui consequat.</p>
+
+            <p>At vehicula integer facilisis nam vitae dolor nisl luctus. Hendrerit nec nibh congue etiam id. Aptent cubilia sit eros a torquent. Dictumst dolor id ut euismod tristique conubia tempus vestibulum est fermentum dis.</p>
+        </div>
+    </div>
+    <div class="image-bg thirdbg slant-bottom_right">
+        <div class="content3">
+            <h2>We know what we're doing</h2>
+        </div>
+    </div>
+    <div class="white-bg contact-section slant-bottom_right rem2-top_bottom">
+        <div class="content2">
+            <h3>Check out some other things!</h3>
+
+            <div class="centerFlex rem2-top_bottom">
+                <a href="#" class="contentLink">
+                    <img src="./assets/img/under.jpg" alt="under">
+                </a>
+                
+                <a href="#" class="contentLink">
+                    <img src="./assets/img/under.jpg" alt="under">
+                </a>
+                
+                <a href="#" class="contentLink">
+                    <img src="./assets/img/under.jpg" alt="under">
+                </a>
+                
+                <a href="#" class="contentLink">
+                    <img src="./assets/img/under.jpg" alt="under">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="grey-bg contact-section rem3-top_bottom minus-100_top">
+        <div class="content2">
+            <h3>Contact Us</h3>
+
+            <p>At vehicula integer facilisis nam vitae dolor nisl luctus. Hendrerit nec nibh congue etiam id. Aptent cubilia sit eros a torquent. Dictumst dolor id ut euismod tristique conubia tempus vestibulum est fermentum dis.</p>
+        </div>
+    </div>
+</body>
+</html>
