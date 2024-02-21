@@ -1,3 +1,8 @@
+/* CSS specifically for logo */
+
+.logo{
+    padding-top: 1rem;
+}
 #logoSpin{
     position: relative;
     background-color: black;

@@ -1,0 +1,16 @@
+/* css to handle the clipping of divs for the angled effect */
+
+.slant-bottom_right{
+    width: 100%;
+    padding-bottom: 70px;
+    clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        100% calc(100% - 70px),
+        0% 100%
+    );
+}
+.minus-100_top{
+    margin-top: -100px;
+    padding-top: 150px;
+}

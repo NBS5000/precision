@@ -1,0 +1,22 @@
+.header{
+    height: 100px;
+    background-color: black;
+}
+.banner_heading{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-weight: 900;
+    display: inline-block;
+    width: 40%;
+    color: white;
+}
+.banner_h1{
+    font-size: 5rem;
+    text-align: right;
+    margin-right: 2rem;
+}
+.banner_bg{
+    background-image:url("../img/bg/crane.jpg");
+    height: 100vh;
+}
