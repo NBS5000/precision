@@ -1,0 +1,22 @@
+/* On screens that are less than 600px wide*/
+@media screen and (max-width: 600px) {
+    .banner_heading {
+        width: 90%;
+        right: 5%;
+    }
+    .banner_h1{
+        font-size: 3rem;
+
+    }
+}
+
+/*
+.banner_heading{
+    position: absolute;
+    bottom: 0;
+    right: 4rem;
+    font-weight: 900;
+    display: inline-block;
+    width: 50%;
+    color: white;
+}*/
