@@ -1,5 +1,5 @@
 /* On screens that are less than 600px wide*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .banner_heading {
         width: 90%;
         right: 5%;
