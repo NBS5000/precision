@@ -87,30 +87,10 @@
     </div>
 
 
+    <script type="text/javascript" src="./assets/js/menuChange.js"></script>
+    <script type="text/javascript" src="./assets/js/stickyScroll.js"></script>
     <script>
-        function burgerMenu(x) {
-            x.classList.toggle("change");
-        }
-        function wordMenu(x) {
-            x.classList.toggle("change");
-        }
+        window.onscroll=()=>{scrollFunction()};
     </script>
-    <script>
-        window.onscroll = function() {myFunction()};
-        
-        const navbar = document.getElementById("navbar");
-        const navbg = document.getElementById("navBg");
-        const sticky = navbar.offsetTop;
-        
-        function myFunction() {
-            if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky","shadow");
-                navbg.classList.add("stickyBg");
-            } else {
-                navbar.classList.remove("sticky","shadow");
-                navbg.classList.remove("stickyBg");
-            }
-        }
-        </script>
 </body>
 </html>
