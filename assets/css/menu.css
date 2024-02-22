@@ -1,18 +1,28 @@
-.menu{
+/* css for the nav section */
+#navbar{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    z-index: 5;
+    height: 2.5rem;
     color: white;
     position: fixed;
     top: 2rem;
-    right: 10rem;
-    z-index: 5;
+}
+
+#menuWord{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    cursor: pointer;
 }
 #menuBurger{
     display: none;
 }
-.menuContainer {
-    display: inline-block;
-    cursor: pointer;
-    z-index: 5;
-}
+
 .bar1, 
 .bar2, 
 .bar3 {
@@ -22,7 +32,7 @@
     margin: 5px 0;
     transition: 0.4s;
     border-radius: 2px;
-    z-index: 5;
+    
     box-sizing: border-box;
 }
 .change .bar1 {
@@ -38,29 +48,19 @@
 #menuWord .bar2, 
 #menuWord .bar3{
     width: 0;
-    z-index: 5;
+    
 }
 #menuWord.change .bar1,
 #menuWord.change .bar2,
 #menuWord.change .bar3{
     width: 35px;
-    z-index: 5;
+    justify-self: center;
     border:1px solid var(--softBlack);
     
 }
 #menuWord .bar2{
     opacity: 0;
-    z-index: 5;
-}
-#menuWord{
-    position: fixed;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100px;
-    height: 2rem;
-    justify-content: center;
-    align-items: center;
-    z-index: 5;
+    
 }
 #menuWord h4{
     display: inline-block;
@@ -68,17 +68,15 @@
     width: 100%;
     font-size: 2rem;
     text-align: center;
-    z-index: 5;
+    
 }
 #menuWord.change h4{
     width: 0;
     font-size: 0rem;
-    z-index: 5;
 }
 
 .sticky {
     position: fixed !important;
     top: 2rem;
-    z-index: 5;
-    right: 10rem;
+    
 }

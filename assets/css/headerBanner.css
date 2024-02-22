@@ -5,16 +5,17 @@
 .banner_heading{
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 4rem;
     font-weight: 900;
     display: inline-block;
-    width: 40%;
+    width: 50%;
     color: white;
 }
 .banner_h1{
+    width: 100%;
     font-size: 5rem;
     text-align: right;
-    margin-right: 2rem;
+    
 }
 .banner_bg{
     background-image:url("../img/bg/crane.jpg");
