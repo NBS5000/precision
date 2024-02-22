@@ -11,6 +11,8 @@
 </head>
 <body>
     <nav id="navbar" class="menu anta">
+        <div id="navBg">
+        </div>
         <div id="menuWord" class="menuContainer" onclick="wordMenu(this)">
             <h4 class="anta">MENU</h4>
             <div class="burgerWrap">
@@ -97,13 +99,16 @@
         window.onscroll = function() {myFunction()};
         
         const navbar = document.getElementById("navbar");
+        const navbg = document.getElementById("navBg");
         const sticky = navbar.offsetTop;
         
         function myFunction() {
             if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky","shadow")
+                navbar.classList.add("sticky","shadow");
+                navbg.classList.add("stickyBg");
             } else {
                 navbar.classList.remove("sticky","shadow");
+                navbg.classList.remove("stickyBg");
             }
         }
         </script>

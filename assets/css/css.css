@@ -6,4 +6,5 @@
 @import url("headerBanner.css");
 @import url("clip.css");
 @import url("menu.css");
-@import url("./media/max600.css")
+@import url("./media/max800.css");
+@import url("./media/coarseFine.css");

@@ -1,0 +1,21 @@
+/* css for generic touch screen device */
+
+@media (pointer: coarse){
+    .banner_heading {
+        width: 90%;
+        right: 5%;
+    }
+    .banner_h1{
+        font-size: 3rem;
+
+    }
+    #menuWord{
+        display: none;
+    }
+}
+
+@media (pointer: fine){
+    #menuBurger{
+        display: none;
+    }
+}
