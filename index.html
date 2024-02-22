@@ -5,9 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Precision Projects</title>
     <link rel="stylesheet" href="./assets/css/css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
 </head>
 <body>
-
+    <nav id="navbar" class="menu anta">
+        <div id="menuWord" class="menuContainer" onclick="wordMenu(this)">
+            <h4 class="anta">MENU</h4>
+            <div class="burgerWrap">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+        <div id="menuBurger" class="menuContainer" onclick="burgerMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    
+    </nav>
     <div class="image-bg banner_bg">
         <div class="slant-bottom_right header">
             <div class="logo">
@@ -16,9 +34,10 @@
                     <img src="./assets/img/logo/precision_noCog.png" alt="Precision Projects">
                 </div>
             </div>
+            
         </div>
         <div class="banner_heading">
-            <h1 class="banner_h1 shadow">SOMETHING ABOUT BUILDING</h1>
+            <h1 class="banner_h1 shadow anta">SOMETHING ABOUT BUILDING</h1>
         </div>
     </div>
     
@@ -64,5 +83,29 @@
             <p>At vehicula integer facilisis nam vitae dolor nisl luctus. Hendrerit nec nibh congue etiam id. Aptent cubilia sit eros a torquent. Dictumst dolor id ut euismod tristique conubia tempus vestibulum est fermentum dis.</p>
         </div>
     </div>
+
+
+    <script>
+        function burgerMenu(x) {
+            x.classList.toggle("change");
+        }
+        function wordMenu(x) {
+            x.classList.toggle("change");
+        }
+    </script>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        const navbar = document.getElementById("navbar");
+        const sticky = navbar.offsetTop;
+        
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky","shadow")
+            } else {
+                navbar.classList.remove("sticky","shadow");
+            }
+        }
+        </script>
 </body>
 </html>

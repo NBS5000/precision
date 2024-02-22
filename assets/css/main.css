@@ -1,4 +1,10 @@
 
+.anta {
+    font-family: "Anta", sans-serif;
+    font-style: normal;
+}
+
+
 .shadow{
     text-shadow: 0.3rem 0.25rem var(--softBlack);
 
