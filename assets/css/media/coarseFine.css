@@ -12,6 +12,19 @@
     #menuWord{
         display: none;
     }
+    .theMenu.change{
+        width:100vw;
+        left: 0;
+    }
+    .theMenu.change .menuOptions{
+        width: 100vw;
+        left: 0;
+        text-align: center;
+        position: absolute;
+        top: -2rem;
+        padding: 2rem 0;
+        background-color: var(--softBlack);
+    }
 }
 
 @media (pointer: fine){
