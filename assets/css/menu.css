@@ -88,4 +88,33 @@
 .stickyBg{
     height: 6rem !important;
 }
+.theMenu{
+    z-index: 3;
+    display: block;
+    height: 0;
+    width: 0;
+    align-self: flex-start;
+    font-size: 0;
+    background-color: red;
+    transition: 0.4s;
+    position: relative;
+}
+.change.theMenu{
+    width: 14rem;
+    height: 0;
+}
+.menuOptions{
+    background-color: var(--softBlack);
+    padding: 0;
+}
+.menuItem{
+    margin-top: 0.5rem;
+    font-size: 0;
+}
+.change .menuItem{
+    font-size: 2rem;
+}
+.change .menuOptions{
+    padding: 1rem;
+}
 
