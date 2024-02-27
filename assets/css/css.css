@@ -1,10 +1,11 @@
 /* css file for combining individual files*/
-@import url("var.css");
-@import url("logo.css");
-@import url("basic.css");
-@import url("main.css");
-@import url("headerBanner.css");
-@import url("clip.css");
-@import url("menu.css");
+@import url("./files/var.css");
+@import url("./files/logo.css");
+@import url("./files/basic.css");
+@import url("./files/main.css");
+@import url("./files/headerBanner.css");
+@import url("./files/clip.css");
+@import url("./files/menu.css");
+@import url("./files/modal.css");
 @import url("./media/max800.css");
 @import url("./media/coarseFine.css");

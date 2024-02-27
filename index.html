@@ -23,16 +23,16 @@
         <div id="menuWord" class="menuContainer" onclick="wordMenu(this)">
             <h4 class="anta">MENU</h4>
             <div class="burgerWrap">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
+                <div class="bar bar1"></div>
+                <div class="bar bar2"></div>
+                <div class="bar bar3"></div>
             </div>
 
         </div>
         <div id="menuBurger" class="menuContainer" onclick="burgerMenu(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
+            <div class="bar bar1"></div>
+            <div class="bar bar2"></div>
+            <div class="bar bar3"></div>
         </div>
 
     </nav>
@@ -68,35 +68,50 @@
             <h3>Check out some other things!</h3>
 
             <div class="centerFlex rem2-top_bottom">
-                <a href="#" class="contentLink">
+                <div class="contentLink" onclick="openModal()">
                     <img src="./assets/img/under.jpg" alt="under">
-                </a>
+                </div>
                 
-                <a href="#" class="contentLink">
+                <div class="contentLink" onclick="">
                     <img src="./assets/img/under.jpg" alt="under">
-                </a>
+                </div>
                 
-                <a href="#" class="contentLink">
+                <div class="contentLink">
                     <img src="./assets/img/under.jpg" alt="under">
-                </a>
+                </div>
                 
-                <a href="#" class="contentLink">
+                <div class="contentLink">
                     <img src="./assets/img/under.jpg" alt="under">
-                </a>
+                </div>
             </div>
         </div>
     </div>
     <div class="grey-bg contact-section rem3-top_bottom minus-100_top">
-        <div class="content2">
-            <h3>Contact Us</h3>
-
-            <p>At vehicula integer facilisis nam vitae dolor nisl luctus. Hendrerit nec nibh congue etiam id. Aptent cubilia sit eros a torquent. Dictumst dolor id ut euismod tristique conubia tempus vestibulum est fermentum dis.</p>
+        <div>
+            <iframe title="Contact Form" src="https://docs.google.com/forms/d/e/1FAIpQLSem3PPUK582HpYUzLOg4ctTBaY0pN33xGRZzOD5MfLEf7KG-Q/viewform?embedded=true" width="640" height="1094" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+    </div>
+    <div id="modal_wrapper" onclick="closeModal(event)">
+        <div id="modal">
+            <div id="modal_exit" onclick="closeModalX()">
+                <div class="bar bar1"></div>
+                <div class="bar bar2"></div>
+                <div class="bar bar3"></div>
+            </div>
+            <div id="modal_content">
+                <div class="modal_content_section">
+                    <img class="modal_image" src="./assets/img/under.jpg" alt="">
+                </div>
+                <div class="modal_content_section">
+                    <p class="modal_text">Here is a picture!</p>
+                </div>
+            </div>
         </div>
     </div>
 
-
     <script type="text/javascript" src="./assets/js/menuChange.js"></script>
     <script type="text/javascript" src="./assets/js/stickyScroll.js"></script>
+    <script type="text/javascript" src="./assets/js/modal.js"></script>
     <script>
         window.onscroll=()=>{scrollFunction()};
     </script>
