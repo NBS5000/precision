@@ -5,6 +5,7 @@
     height: 120vh;
     left: 0;
     top: 0;
+    display:none;
 }
 #modal{
     z-index: 11;
