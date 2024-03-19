@@ -1,0 +1,6 @@
+# ignores modules
+dev/
+node_modules/
+.env
+DS_Store
+dev.txt
