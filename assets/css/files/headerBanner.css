@@ -3,13 +3,14 @@
     background-color: black;
 }
 .banner_heading{
-    position: absolute;
-    bottom: 0;
+    float: right;
     right: 4rem;
     font-weight: 900;
-    display: inline-block;
+    display: flex;
+    align-items: flex-end;
     width: 50%;
     color: white;
+    margin-right:10%;
 }
 .banner_h1{
     width: 100%;
@@ -17,6 +18,14 @@
     text-align: right;
 }
 .banner_bg{
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.home_bg{
     background-image:url("../../img/bg/crane.jpg");
-    height: 100vh;
+}
+.about_bg{
+    background-image:url("../../img/bg/image4.jpg");
 }

@@ -88,5 +88,16 @@
     width: 80%;
     margin: 0 auto;
 }
-
-
+.aboutBlurb{
+    font-size:2rem;
+}
+.list{
+    text-align: left;
+    font-size: 1.6rem;
+    width: 80%;
+    margin: 0 auto;
+}
+.list li{
+    list-style-type: circle;
+    margin-bottom: 1rem;
+}
