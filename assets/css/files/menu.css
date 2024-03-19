@@ -84,6 +84,7 @@
 }
 .stickyBg{
     height: 6rem !important;
+    padding-left: 2rem;
 }
 .theMenu{
     z-index: 3;

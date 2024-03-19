@@ -106,3 +106,6 @@
 .list li{
     list-style-type: circle;
 }
+.white-bg h3{
+    color: var(--softBlack);
+}
