@@ -10,8 +10,7 @@ body{
     font-size: 16px;
     overflow-x: hidden;
 }
-h1,h2,h3{
-    margin-bottom: 1rem;
+h1,h2,h3,h4{
     font-family: 'Anta',sans-serif;
     color:white;
 }
@@ -26,5 +25,9 @@ h3{
 }
 p{
     font-size: 1rem;
+}
+.marginBot_1rem,
+.list li,
+h1,h2,h3,p{
     margin-bottom: 1rem;
 }
