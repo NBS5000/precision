@@ -1,43 +1,45 @@
 
-const email = document.getElementById("email"),
-tel=document.getElementById("phone"),
-query=document.getElementById("query"),
-contact=document.getElementById("name"),
-honey=document.getElementById("honey");
+
 
 function checkForm(x){
-
-    console.log("X: ",x);
-
-    if(!email||!tel){
+    const message = {
+        "e":document.getElementById("email").value,
+        "t":document.getElementById("phone").value,
+        "q":document.getElementById("query").value,
+        "c":document.getElementById("name").value,
+    }
+    const honey=document.getElementById("honey");
+    
+    if(!message.e&&!message.t){
         alert("Please enter a valid number or email for us to get back to you with");
         return
-    }else if(!contact){
+    }else if(!message.c){
         alert("What's your name, champ?");
-    }else if(!query){
+    }else if(!message.q){
         alert("Let me know what your query is so I can answer it!");
     }else if(honey){
         return
     }else{
-        if(sendDetails()){
+        if(sendDetails(message)){
             alert("Thanks for getting in contact, we'll be in touch soon");
-            document.getElementById("form").style.display="none";
-            document.getElementById("thanks").style.display="block";
+            /*document.getElementById("form").style.display="none";
+            document.getElementById("thanks").style.display="block";*/
         }else{
             alert("There was an error");
         }
     }
 }
 
-function sendDetails(){
-    const to = "web@email.com.au",
+function sendDetails(m){
+    const to = "steve.nbs.barry@gmail.com";
+    //const to = "info@precisionprojectseng.com.au",
     message = document.getElementById("message"),
     content = `You've received a message from the website:
-    From: ${contact},
-    Tel: ${tel},
-    Email: ${email},
-    Message: ${message}`;
-
+    From: ${m.c},
+    Tel: ${m.t},
+    Email: ${m.e},
+    Message: ${m.m}`;
+    console.log("Content: ",content);
     try{
         sendEmail(to,content)
         return true;
