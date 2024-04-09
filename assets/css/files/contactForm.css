@@ -39,19 +39,23 @@
 }
 
 form {
-    padding: 2.3rem 2.2rem;
+    padding: 2rem 2rem;
     z-index: 10;
     overflow: hidden;
     position: relative;
 }
 
 .title {
-    color: #fff;
-    font-weight: 500;
     font-size: 1.5rem;
     line-height: 1;
-    margin-bottom: 0.7rem;
-    padding-left: 0;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px var(--darkerBlue);
+}
+.contact-info .title{
+    margin: 2rem;
 }
 
 .input-container {
@@ -167,13 +171,23 @@ textarea.input {
 }
 
 .contact-info {
-    padding: 2.3rem 2.2rem;
     position: relative;
+    background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url("../../img/mel.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+.info{
+    height: fit-content;
+    width: 100%;
+    padding:0.5rem 2rem;
+    background-color: white;
 }
 
-.contact-info .title {
-    color: var(--darkerBlue);;
-}
 
 .text {
     color: #333;
@@ -201,7 +215,8 @@ textarea.input {
 }
 
 .social-media {
-    padding: 2rem 0 0 0;
+    margin-top: 2rem;
+    /*padding: 2rem 0 0 0;*/
 }
 
 .social-media p {
@@ -247,6 +262,13 @@ textarea.input {
     height: 25px;
     width: 25px;
     margin-right:15px;
+}
+.information a{
+    display: flex;
+}
+
+.compDetailsIcon a p{
+    line-height: 1.4rem;
 }
 
 @media (max-width: 850px) {
