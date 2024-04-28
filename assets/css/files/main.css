@@ -44,14 +44,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 400px;
 }
 .home_thirdbg{
     background-image:url("../../img/bg/gateAngle2.jpg");
     background-position: 0 150px 0 0;
+    height: 400px;
 }
 .about_thirdbg{
     background-image:url("../../img/bg/image5.jpg");
+    height: 500px;
+}
+.about_thirdbg *{
+    font-size: 2rem;
+    width: 80%;
 }
 .noSlant_content{
     width: 80%;
@@ -105,9 +110,10 @@
 }
 .list{
     text-align: left;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     width: 80%;
-    margin: 0 auto;
+    margin: 3rem auto;
+    margin-bottom: 0;
 }
 .list li{
     list-style-type: circle;
