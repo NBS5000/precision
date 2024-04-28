@@ -39,12 +39,16 @@
 .grey-bg{
     background-color: grey;
 }
+
 .thirdbg{
-    padding-top: 200px;
-    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
 }
 .home_thirdbg{
-    background-image:url("../../img/bg/people.png");
+    background-image:url("../../img/bg/gateAngle2.jpg");
+    background-position: 0 150px 0 0;
 }
 .about_thirdbg{
     background-image:url("../../img/bg/image5.jpg");
@@ -54,12 +58,11 @@
     margin: 0 auto;
     font-size: 2rem;
     text-align: center;
-    padding: 80px 0;
 }
 .bgTint{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    height: 200px;
+    height: 200%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,13 +85,15 @@
     justify-content: space-between;
     
 }
+
 .contentLink{
     height: auto;
     width: 20%;
     transition-duration: 0.5s;
 }
 .contentLink:hover{
-    scale:1.3;
+    scale:1.2;
+    box-shadow: 2px 2px 2px var(--darkerBlue);
 }
 .contentLink img{
     height: 100%;
@@ -97,9 +102,6 @@
 .content2{
     width: 80%;
     margin: 0 auto;
-}
-.aboutBlurb{
-    font-size:1.5rem;
 }
 .list{
     text-align: left;
@@ -112,4 +114,43 @@
 }
 .white-bg h3{
     color: var(--softBlack);
+}
+.blueText{
+    color:var(--darkerBlue) !important;
+}
+
+.blue-bg{
+    /*background-color: var(--lighterBlue);*/
+}
+.blue-bg p{
+    /*color:white;*/
+    margin-bottom: 0;
+    font-size:1.2rem;
+    margin-bottom: 1rem;
+}
+.twoCol{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0 calc(50px - 1rem) 0;
+}
+.twoCol_img,
+.twoCol_text{
+    width: 70%;
+    margin: 0 auto;
+}
+.twoCol_img{
+    height: 300px;
+}
+.twoCol_img img{
+    width: auto;
+    height: 100%;
+}
+.twoCol_text{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.pp_emphasise{
+    font-weight: bold;
+    text-shadow: 1px var(--softBlack);
 }

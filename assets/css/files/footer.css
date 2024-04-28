@@ -1,0 +1,29 @@
+footer{
+    background-color: grey;
+    padding-bottom: 1rem;
+}
+.aoc{
+    width: 90%;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aoc_flags{
+    height: 40px;
+    width: 200px;
+}
+.aoc_text{
+    color:white;
+    width:60%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+.companyDets p{
+    text-align: center;
+    color: white;
+    margin-bottom: 0 !important;
+}

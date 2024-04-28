@@ -1,6 +1,7 @@
 :root{
     --darkerBlue: #035f90;
-    --lighterBlue: #04c5fe;
+    /*--lighterBlue: #04c5fe;*/
+    --lighterBlue:rgba(3, 95, 144, 0.1);
     --mainGrey: #353732;
     --coral: #ff6f61;
     --grey: #D3D3D3;
