@@ -1,14 +1,6 @@
-
-.anta {
-    font-family: "Anta", sans-serif;
-    font-style: normal;
-}
-
-
 .shadow{
     text-shadow: 0.2rem 0.2rem var(--softBlack);
 }
-
 .image-bg{
     width: 100%;
     background-attachment: fixed;
@@ -23,23 +15,14 @@
     font-family: Arial, Helvetica, sans-serif;
     display: block;
 }
-
 .rem3-top_bottom{
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-
 .rem2-top_bottom{
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-.white-bg{
-    background-color: white;
-}
-.grey-bg{
-    background-color: grey;
-}
-
 .thirdbg{
     display: flex;
     align-items: center;
@@ -49,6 +32,7 @@
     background-image:url("../../img/bg/gateAngle2.jpg");
     background-position: 0 150px 0 0;
     height: 400px;
+    padding-top: 100px;
 }
 .about_thirdbg{
     background-image:url("../../img/bg/image5.jpg");
@@ -58,11 +42,10 @@
     font-size: 2rem;
     width: 80%;
 }
-.noSlant_content{
+.noclip_content{
     width: 80%;
     margin: 0 auto;
     font-size: 2rem;
-    text-align: center;
 }
 .bgTint{
     width: 100%;
@@ -77,28 +60,27 @@
     text-align: center;
     padding:2rem;
 }
-
 .contact-section{
-    height: 400px;
+    height: fit-content;
 }
-
 .centerFlex{
     display: flex;
     flex-wrap: wrap;
     width:90%;
     margin:0 auto;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
-
 .contentLink{
     height: auto;
     width: 20%;
     transition-duration: 0.5s;
+    min-width: 200px;
+    margin-bottom: 20px;
 }
 .contentLink:hover{
     scale:1.2;
-    box-shadow: 2px 2px 2px var(--darkerBlue);
+    box-shadow: 2px 2px 2px var(--softBlack);
 }
 .contentLink img{
     height: 100%;
@@ -118,45 +100,26 @@
 .list li{
     list-style-type: circle;
 }
-.white-bg h3{
-    color: var(--softBlack);
-}
-.blueText{
-    color:var(--darkerBlue) !important;
-}
-
-.blue-bg{
-    /*background-color: var(--lighterBlue);*/
-}
-.blue-bg p{
-    /*color:white;*/
-    margin-bottom: 0;
-    font-size:1.2rem;
-    margin-bottom: 1rem;
-}
-.twoCol{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 50px 0 calc(50px - 1rem) 0;
-}
-.twoCol_img,
-.twoCol_text{
-    width: 70%;
-    margin: 0 auto;
-}
-.twoCol_img{
-    height: 300px;
-}
-.twoCol_img img{
-    width: auto;
-    height: 100%;
-}
-.twoCol_text{
+.homeBlurb{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    width: 70%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--softBlack);
+    margin-bottom: calc(80px - 1rem);
 }
 .pp_emphasise{
     font-weight: bold;
     text-shadow: 1px var(--softBlack);
+    display: inline;
+}
+.blurbWrapper{
+    margin-bottom: -100px;
+    z-index: 5;
+    position: relative
 }

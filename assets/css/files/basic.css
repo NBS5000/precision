@@ -11,10 +11,6 @@ body{
     font-size: 16px;
     overflow-x: hidden;
 }
-h1,h2,h3,h4{
-    font-family: 'Anta',sans-serif;
-    color:white;
-}
 h1{
     font-size: 3rem;
 }
@@ -27,8 +23,34 @@ h3{
 p{
     font-size: 1rem;
 }
-.marginBot_1rem,
 .list li,
-h1,h2,h3,p{
+h1,h2,h3,
+h4,h5,p{
     margin-bottom: 1rem;
+}
+.marginBot_15rem{
+    margin-bottom: 1.5rem;
+}
+.blueText{
+    color:var(--darkerBlue) !important;
+}
+.whiteText{
+    color:white;
+}
+.white-bg{
+    background-color: white;
+}
+.grey-bg{
+    background-color: grey;
+}
+.anta {
+    font-family: "Anta", sans-serif;
+    font-style: normal;
+}
+.centerText{
+    text-align: center;
+}
+.test{
+    background-color: red;
+    color: green;
 }

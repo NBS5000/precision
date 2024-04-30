@@ -5,7 +5,9 @@
         width: 90%;
         right: 5%;
     }
-
+    #menuBurger{
+        display: block;
+    }
     #menuWord{
         display: none;
     }
@@ -26,6 +28,9 @@
 
 @media (pointer: fine){
     #menuBurger{
+        display: block;
+    }
+    #menuWord{
         display: none;
     }
 }
