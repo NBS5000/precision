@@ -1,11 +1,11 @@
 footer{
     background-color: grey;
     padding: 1rem;
+    height: fit-content;
 }
 .aoc{
     width: 90%;
     margin: 0 auto;
-    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,7 +22,8 @@ footer{
     margin-top: 20px;
     font-size: 0.9rem;
 }
-.companyDets p{
+.companyDets{
     text-align: center;
+    font-size: 0.9rem;
     margin-bottom: 0 !important;
 }

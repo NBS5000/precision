@@ -24,6 +24,15 @@
         padding: 2rem 0;
         background-color: var(--softBlack);
     }
+    .logo,
+    .homeBlurb_text h3,
+    .aoc_flags{
+        scale: 0.8;
+    }
+    .contentLink,
+    .aoc_text{
+        width: 100%;
+    }
 }
 
 @media (pointer: fine){
