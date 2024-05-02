@@ -3,99 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Precision Projects: Gallery</title>
+    <title>Precision Projects</title>
     <link rel="icon" type="image/x-icon" href="../assets/img/ico/favicon.ico">
     <link rel="stylesheet" href="../assets/css/css.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <!--script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></!--script>
+    <script>
+        Handlebars.registerPartial('nav', '{{nav}}');
+    </script-->
 </head>
 <body>
     <nav id="navbar" class="menu anta">
         <div id="navBg"></div>
         <div class="theMenu">
             <ul class="menuOptions">
-                <li class="menuItem anta"><a class="menuLink" href="./about-us.html">About</a></li>
-                <li class="menuItem anta"><a class="menuLink" href="./contact-us.html">Contact</a></li>
+                <li class="menuItem anta"><a class="menuLink" href="./pages/about-us.html">About</a></li>
+                <li class="menuItem anta"><a class="menuLink" href="./pages/gallery.html">Gallery</a></li>
+                <li class="menuItem anta"><a class="menuLink" href="./pages/contact-us.html">Contact</a></li>
                 <li class="menuItem anta"><a class="menuLink" href="#">Testimonials</a></li>
             </ul>
         </div>
-        <div id="menuWord" class="menuContainer" onclick="wordMenu(this)">
+        <!--div id="menuWord" class="menuContainer" onclick="wordMenu(this)">
             <h4 class="anta">MENU</h4>
             <div class="burgerWrap">
                 <div class="bar bar1"></div>
                 <div class="bar bar2"></div>
                 <div class="bar bar3"></div>
             </div>
-
-        </div>
+        </!--div-->
         <div id="menuBurger" class="menuContainer" onclick="burgerMenu(this)">
             <div class="bar bar1"></div>
             <div class="bar bar2"></div>
             <div class="bar bar3"></div>
         </div>
-
     </nav>
-    <div class="image-bg banner_bg about_bg">
-        <div class="slant-bottom_right header">
+    <div class="image-bg banner_bg home_bg clip-bottom_right">
+        <div class="clip-bottom_right header">
             <div class="logo">
-                <a href="../index.html">
-                    <div id="logoSpin">
-                        <img src="../assets/img/logo/precision_cogOnly.png" alt="Precision Projects" id="cog">
-                        <img src="../assets/img/logo/precision_noCog_spanner.png" alt="Precision Projects">
-                    </div>
-                </a>
+                <div id="logoSpin">
+                    <img src="../assets/img/logo/precision_cogOnly.png" alt="Precision Projects" id="cog">
+                    <img src="../assets/img/logo/precision_noCog_spanner.png" alt="Precision Projects">
+                </div>
             </div>
             
         </div>
-        <div class="banner_heading">
-            <h1 class="banner_h1 shadow anta marginBot_1rem">ABOUT US</h1>
-        </div>
     </div>
     
-    <div class="image-bg white-bg">
-        <div class="noSlant_content">
-            <ul class="list">
-                <li><strong>Comprehensive Services:</strong> From breakdowns to installations, design to welding pressure tickets, and fabrication of all materials using Tig, Mig, stick welding, we offer a comprehensive suite of services tailored to meet your specific needs</li>
-                <li><strong>Industry Versatility:</strong> With extensive experience spanning various industries, our team possesses the versatility and adaptability to tackle challenges across different sectors with precision and professionalism</li>
-                <li><strong>Attention to Detail:</strong> At Precision Projects, we pride ourselves on our meticulous attention to detail, ensuring that every task we undertake is executed with the utmost care</li>
-                <li><strong>Professionalism:</strong> Our team is dedicated to upholding the highest standards of professionalism in every aspect of our work, guaranteeing a seamless and satisfactory experience for our clients</li>
-            </ul>
+    <div class="clip-bottom_right white-bg blurbWrapper">
+        <div class="homeBlurb">
+            <div class="homeBlurb_text centerText">
+                <h3 class="anta marginBot_15rem blueText">MEETING YOUR MANUFACTURING AND FABRICATION NEEDS</h3>
+                <p>With over 20 years of dedicated experience, <span class="blueText pp_emphasise">Precision Projects</span> stands as a trusted name in the realm of manufacturing and fabrication.</p> 
+                <p>Specialising predominantly in the food manufacturing industry while extending our proficiency across diverse sectors, we boast a team of skilled fitter machinists and welders committed to excellence in every project.</p>
+            </div>
         </div>
     </div>
-    <div class="image-bg thirdbg slant-bottom_right about_thirdbg">
+    <div class="image-bg thirdbg home_thirdbg clip-bottom_right ">
         <div class="bgTint">
-            <h2 class="shadow">Whether you require mechanical aid, fabrication, general maintenance, plumbing solutions and or construction services at Precision Projects we are your reliable partner for delivering exceptional results. Contact us today to discuss how we can assist you in achieving your manufacturing and fabrication goals.</h2>
+            <h2 class="anta shadow whiteText">Precision. For your Projects.</h2>
         </div>
     </div>
-    <div class="white-bg contact-section slant-bottom_right rem2-top_bottom">
-        <div class="noSlant_content">
-            <h3>Check out some other things!</h3>
+    <div class="white-bg contact-section clip-bottom_right rem2-top_bottom">
+        <div class="noclip_content">
+            <h2 class="anta blueText centerText">Have a look at our work</h2>
 
             <div class="centerFlex rem2-top_bottom">
-                <div class="contentLink" onclick="openModal()">
-                    <img src="../assets/img/under.jpg" alt="under">
-                </div>
+                <a class="contentLink" href="./pages/gallery.html" title="Compressor image linking to gallery">
+                    <img src="../assets/img/compressor.jpg" alt="Compressor">
+                </a>
                 
-                <div class="contentLink" onclick="">
-                    <img src="../assets/img/under.jpg" alt="under">
-                </div>
+                <a class="contentLink" href="./pages/gallery.html" title="Fence image linking to gallery">
+                    <img src="../assets/img/fence.jpg" alt="Fence">
+                </a>
                 
-                <div class="contentLink">
-                    <img src="../assets/img/under.jpg" alt="under">
-                </div>
+                <a class="contentLink" href="./pages/gallery.html" title="Units image linking to gallery">
+                    <img src="../assets/img/units.jpg" alt="Units">
+                </a>
                 
-                <div class="contentLink">
-                    <img src="../assets/img/under.jpg" alt="under">
+                <div class="contentLink" href="./pages/gallery.html" title="Gate image linking to gallery">
+                    <img src="../assets/img/gate.jpg" alt="Gate">
                 </div>
             </div>
         </div>
     </div>
-    <div class="grey-bg contact-section rem3-top_bottom minus-100_top">
-        <!--div>
-            <iframe title="Contact Form" src="https://docs.google.com/forms/d/e/1FAIpQLSem3PPUK582HpYUzLOg4ctTBaY0pN33xGRZzOD5MfLEf7KG-Q/viewform?embedded=true" width="640" height="1094" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        </div-->
-    </div>
+    <footer class="minus-100_top">
+        <div class="aoc">
+            <img src="../assets/img/flags.png" alt="Aboriginal, Torres Strait, Australian flags" class="aoc_flags">
+            <p class="aoc_text whiteText">We acknowledge Aboriginal and Torres Strait Islander peoples as the First Australians and Traditional Custodians of the lands where we live, learn, and work.</p>
+            <p class="companyDets whiteText">Precision Projects Engineering & Fabrication PTY LTD<br/>ACN: 668 218 933</p>
+        </div>
+    </footer>
     <div id="modal_wrapper" onclick="closeModal(event)">
         <div id="modal">
             <div id="modal_exit" onclick="closeModalX()">
