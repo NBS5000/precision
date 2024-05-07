@@ -15,79 +15,71 @@
     </script-->
 </head>
 <body>
-    <nav id="navbar" class="menu anta">
-        <div id="navBg"></div>
-        <div class="theMenu">
-            <ul class="menuOptions">
-                <li class="menuItem anta"><a class="menuLink" href="./pages/about-us.html">About</a></li>
-                <li class="menuItem anta"><a class="menuLink" href="./pages/gallery.html">Gallery</a></li>
-                <li class="menuItem anta"><a class="menuLink" href="./pages/contact-us.html">Contact</a></li>
-                <li class="menuItem anta"><a class="menuLink" href="#">Testimonials</a></li>
-            </ul>
+    <header>
+        <div class="image-bg banner_bg home_bg clip-bottom_right">
+            <div class="clip-bottom_right header">
+                <a class="contentLink" href="../" title="Compressor image linking to gallery">
+                    <div class="logo">
+                        <div id="logoSpin">
+                            <img src="../assets/img/logo/precision_cogOnly.png" alt="Precision Projects" id="cog">
+                            <img src="../assets/img/logo/precision_noCog_spanner.png" alt="Precision Projects">
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
-        <!--div id="menuWord" class="menuContainer" onclick="wordMenu(this)">
-            <h4 class="anta">MENU</h4>
-            <div class="burgerWrap">
+        <nav id="navbar" class="menu anta">
+            
+            <div id="menuBurger" class="menuContainer" onclick="burgerMenu(this)">
                 <div class="bar bar1"></div>
                 <div class="bar bar2"></div>
                 <div class="bar bar3"></div>
             </div>
-        </!--div-->
-        <div id="menuBurger" class="menuContainer" onclick="burgerMenu(this)">
-            <div class="bar bar1"></div>
-            <div class="bar bar2"></div>
-            <div class="bar bar3"></div>
-        </div>
-    </nav>
-    <div class="image-bg banner_bg home_bg clip-bottom_right">
-        <div class="clip-bottom_right header">
-            <div class="logo">
-                <div id="logoSpin">
-                    <img src="../assets/img/logo/precision_cogOnly.png" alt="Precision Projects" id="cog">
-                    <img src="../assets/img/logo/precision_noCog_spanner.png" alt="Precision Projects">
-                </div>
+            <div class="theMenu">
+                <ul class="menuOptions">
+                    <li class="menuItem anta"><a class="menuLink" href="./about-us.html">About</a></li>
+                    <li class="menuItem anta"><a class="menuLink" href="./gallery.html">Gallery</a></li>
+                    <li class="menuItem anta"><a class="menuLink" href="./contact-us.html">Contact</a></li>
+                    <li class="menuItem anta"><a class="menuLink" href="#">Testimonials</a></li>
+                </ul>
             </div>
-            
-        </div>
-    </div>
-    
-    <div class="clip-bottom_right white-bg blurbWrapper">
-        <div class="homeBlurb">
-            <div class="homeBlurb_text centerText">
-                <h3 class="anta marginBot_15rem blueText">MEETING YOUR MANUFACTURING AND FABRICATION NEEDS</h3>
-                <p>With over 20 years of dedicated experience, <span class="blueText pp_emphasise">Precision Projects</span> stands as a trusted name in the realm of manufacturing and fabrication.</p> 
-                <p>Specialising predominantly in the food manufacturing industry while extending our proficiency across diverse sectors, we boast a team of skilled fitter machinists and welders committed to excellence in every project.</p>
-            </div>
-        </div>
-    </div>
-    <div class="image-bg thirdbg home_thirdbg clip-bottom_right ">
-        <div class="bgTint">
-            <h2 class="anta shadow whiteText">Precision. For your Projects.</h2>
-        </div>
-    </div>
-    <div class="white-bg contact-section clip-bottom_right rem2-top_bottom">
-        <div class="noclip_content">
-            <h2 class="anta blueText centerText">Have a look at our work</h2>
+        </nav>
 
-            <div class="centerFlex rem2-top_bottom">
-                <a class="contentLink" href="./pages/gallery.html" title="Compressor image linking to gallery">
-                    <img src="../assets/img/compressor.jpg" alt="Compressor">
-                </a>
-                
-                <a class="contentLink" href="./pages/gallery.html" title="Fence image linking to gallery">
-                    <img src="../assets/img/fence.jpg" alt="Fence">
-                </a>
-                
-                <a class="contentLink" href="./pages/gallery.html" title="Units image linking to gallery">
-                    <img src="../assets/img/units.jpg" alt="Units">
-                </a>
-                
-                <div class="contentLink" href="./pages/gallery.html" title="Gate image linking to gallery">
-                    <img src="../assets/img/gate.jpg" alt="Gate">
-                </div>
+    </header>
+    <main class="clip-bottom_right">
+        <div class="centerText">
+            <h3 class="anta marginBot_15rem marginTop_15rem blueText">GALLERY OF OUR WORK</h3>
+        </div>
+        <div class="gallery-container">
+            <div class="gallery-item" data-index="1">
+                <img alt="" src="../assets/img/compressor.jpg">
+            </div>
+            <div class="gallery-item" data-index="2">
+                <img alt="" src="../assets/img/gateAngle2.jpg">
+            </div>
+            <div class="gallery-item" data-index="3">
+                <img alt="" src="../assets/img/fence.jpg">
+            </div>
+            <div class="gallery-item" data-index="4">
+                <img alt="" src="../assets/img/canister.jpg">
+            </div>
+            <div class="gallery-item" data-index="5">
+                <img alt="" src="../assets/img/chute.jpg">
+            </div>
+            <div class="gallery-item" data-index="6">
+                <img alt="" src="../assets/img/rod.jpg">
+            </div>
+            <div class="gallery-item" data-index="7">
+                <img alt="" src="../assets/img/stairwell.jpg">
+            </div>
+            <div class="gallery-item" data-index="8">
+                <img alt="" src="../assets/img/units.jpg">
+            </div>
+            <div class="gallery-item" data-index="9">
+                <img alt="" src="../assets/img/redBlueUnit.jpg">
             </div>
         </div>
-    </div>
+    </main> 
     <footer class="minus-100_top">
         <div class="aoc">
             <img src="../assets/img/flags.png" alt="Aboriginal, Torres Strait, Australian flags" class="aoc_flags">
@@ -95,27 +87,9 @@
             <p class="companyDets whiteText">Precision Projects Engineering & Fabrication PTY LTD<br/>ACN: 668 218 933</p>
         </div>
     </footer>
-    <div id="modal_wrapper" onclick="closeModal(event)">
-        <div id="modal">
-            <div id="modal_exit" onclick="closeModalX()">
-                <div class="bar bar1"></div>
-                <div class="bar bar2"></div>
-                <div class="bar bar3"></div>
-            </div>
-            <div id="modal_content">
-                <div class="modal_content_section">
-                    <img class="modal_image" src="../assets/img/under.jpg" alt="">
-                </div>
-                <div class="modal_content_section">
-                    <p class="modal_text">Here is a picture!</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <script type="text/javascript" src="../assets/js/menuChange.js"></script>
     <script type="text/javascript" src="../assets/js/stickyScroll.js"></script>
-    <script type="text/javascript" src="../assets/js/modal.js"></script>
+    <script type="text/javascript" src="../assets/js/gallery.js"></script>
     <script>
         window.onscroll=()=>{scrollFunction()};
     </script>
