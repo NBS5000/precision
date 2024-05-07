@@ -27,12 +27,20 @@ const galleryItem = document.getElementsByClassName("gallery-item");
             }
             let imageLocation = galleryItem[index-1].children[0].getAttribute("src");
             lightBoxImg.setAttribute("src", imageLocation);
+
         }
 
         function currentImage() {
             lightBoxContainer.style.display = "block";
 
             let imageIndex = parseInt(this.getAttribute("data-index"));
+            if(this.getAttribute("data-view")=="land"){
+                lightBoxContent.classList.add("lightbox_landscape");
+            }else{
+                
+                lightBoxContent.classList.add("lightbox_portrait");
+            }
+            
             showLightBox(index = imageIndex);
         }
         for (let i = 0; i < galleryItem.length; i++) {

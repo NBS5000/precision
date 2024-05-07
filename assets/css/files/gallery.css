@@ -17,6 +17,9 @@
 .gallery-item:hover {
     filter: grayscale(0);
     opacity: 1;
+    scale: 1.1;
+    z-index: 99;
+    box-shadow: 2px 2px 2px var(--softBlack);
 }
 .gallery-item img {
     width: 100%;
@@ -39,9 +42,15 @@
 }
 .lightbox-content {
     position: relative;
+    margin: 5% auto;
+}
+.lightbox_landscape{
     width: 70%;
     height: 70%;
-    margin: 5% auto;
+}
+.lightbox_portrait{
+    width: 25%;
+    height: 70%;
 }
 .lightbox-content img {
     border-radius: 7px;
