@@ -1,0 +1,37 @@
+.btn{
+    background-color: var(--darkerBlue);
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    border: none;
+}
+.btn:hover{
+    background-color: var(--teal);
+    box-shadow: 2px 2px 2px var(--softBlack);
+}
+.btnLink{
+    color: white;
+    height: 100%;
+    width: 100%; 
+    font-size: 1.4rem;
+    padding: 5px;            
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn_hollow{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}

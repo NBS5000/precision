@@ -9,56 +9,48 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
-    <!--script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></!--script>
-    <script>
-        Handlebars.registerPartial('nav', '{{nav}}');
-    </script-->
 </head>
 <body>
     <header>
-        <nav id="navbar" class="menu anta">
-            <div id="navBg"></div>
-            <div class="theMenu">
-                <ul class="menuOptions">
-                    <li class="menuItem anta"><a class="menuLink" href="./pages/about-us.html">About</a></li>
-                    <li class="menuItem anta"><a class="menuLink" href="./pages/gallery.html">Gallery</a></li>
-                    <li class="menuItem anta"><a class="menuLink" href="./pages/contact-us.html">Contact</a></li>
-                    <li class="menuItem anta"><a class="menuLink" href="#">Testimonials</a></li>
-                </ul>
-            </div>
-            <!--div id="menuWord" class="menuContainer" onclick="wordMenu(this)">
-                <h4 class="anta">MENU</h4>
-                <div class="burgerWrap">
-                    <div class="bar bar1"></div>
-                    <div class="bar bar2"></div>
-                    <div class="bar bar3"></div>
+        <div class="image-bg banner_bg home_bg clip-bottom_right">
+            <div class="clip-bottom_right header">
+                <div class="logo">
+
+                    <div id="logoSpin">
+                        <img src="./assets/img/logo/precision_cogOnly.png" alt="Precision Projects" id="cog">
+                        <img src="./assets/img/logo/precision_noCog_spanner.png" alt="Precision Projects">
+                    </div>
+
                 </div>
-            </!--div-->
+            </div>
+        </div>
+        <nav id="navbar" class="menu anta">
             <div id="menuBurger" class="menuContainer" onclick="burgerMenu(this)">
                 <div class="bar bar1"></div>
                 <div class="bar bar2"></div>
                 <div class="bar bar3"></div>
             </div>
-        </nav>
-        <div class="image-bg banner_bg home_bg clip-bottom_right">
-            <div class="clip-bottom_right header">
-                <div class="logo">
-                    <div id="logoSpin">
-                        <img src="./assets/img/logo/precision_cogOnly.png" alt="Precision Projects" id="cog">
-                        <img src="./assets/img/logo/precision_noCog_spanner.png" alt="Precision Projects">
-                    </div>
-                </div>
-            
+            <div class="theMenu">
+                <ul class="menuOptions">
+                    <li class="menuItem anta"><a class="menuLink" href="./pages/about-us.html">About Us</a></li>
+                    <li class="menuItem anta"><a class="menuLink" href="./pages/gallery.html">Gallery</a></li>
+                    <li class="menuItem anta"><a class="menuLink" href="./pages/contact-us.html">Contact</a></li>
+                    <!--li class="menuItem anta"><a class="menuLink" href="#">Testimonials</a></!--li-->
+                </ul>
             </div>
-        </div>
+        </nav>
     </header>
+    <main>
     <div class="clip-bottom_right white-bg blurbWrapper">
         <div class="homeBlurb">
             <div class="homeBlurb_text centerText">
-                <h3 class="anta marginBot_15rem blueText">MEETING YOUR MANUFACTURING AND FABRICATION NEEDS</h3>
+                <h2 class="anta marginBot_15rem blueText">MEETING YOUR MANUFACTURING AND FABRICATION NEEDS</h2>
                 <p>With over 20 years of dedicated experience, <span class="blueText pp_emphasise">Precision Projects</span> stands as a trusted name in the realm of manufacturing and fabrication.</p> 
                 <p>Specialising predominantly in the food manufacturing industry while extending our proficiency across diverse sectors, we boast a team of skilled fitter machinists and welders committed to excellence in every project.</p>
             </div>
+        </div>
+        <div class="btn">
+            <a href="./pages/contact-us.html" class="btnLink">CONTACT US</a>
         </div>
     </div>
     <div class="image-bg thirdbg home_thirdbg clip-bottom_right ">
@@ -88,7 +80,11 @@
                 </div>
             </div>
         </div>
+        <div class="btn">
+            <a href="./pages/contact-us.html" class="btnLink">CONTACT US</a>
+        </div>
     </div>
+</main>
     <footer class="minus-100_top">
         <div class="aoc">
             <img src="./assets/img/flags.png" alt="Aboriginal, Torres Strait, Australian flags" class="aoc_flags">

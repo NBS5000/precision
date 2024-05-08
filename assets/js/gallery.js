@@ -9,6 +9,8 @@ const galleryItem = document.getElementsByClassName("gallery-item");
         lightBoxContent.classList.add("lightbox-content");
         lightBoxPrev.classList.add("fa", "fa-angle-left", "lightbox-prev");
         lightBoxNext.classList.add("fa", "fa-angle-right", "lightbox-next");
+        lightBoxNext.innerText = " > ";
+        lightBoxPrev.innerText = " < ";
 
         lightBoxContainer.appendChild(lightBoxContent);
         lightBoxContent.appendChild(lightBoxImg);

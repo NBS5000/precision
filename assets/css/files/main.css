@@ -37,6 +37,7 @@
 .about_thirdbg{
     background-image:url("../../img/bg/image5.jpg");
     height: 500px;
+    margin-top: -100px;
 }
 .about_thirdbg *{
     font-size: 2rem;
@@ -93,9 +94,9 @@
 .list{
     text-align: left;
     font-size: 1.2rem;
-    width: 80%;
     margin: 3rem auto;
     margin-bottom: 0;
+    width: 80%;
 }
 .list li{
     list-style-type: circle;
@@ -105,13 +106,13 @@
     flex-wrap: wrap;
     align-items: center;
     width: 70%;
-    margin: 80px auto;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
     color: var(--softBlack);
-    margin-bottom: calc(80px - 1rem);
+    /*margin-bottom: calc(80px - 1rem);*/
 }
 .pp_emphasise{
     font-weight: bold;
