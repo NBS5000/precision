@@ -31,7 +31,7 @@
 }
 .home_bg{
     background-image:url("../../img/bg/crane.jpg");
-    background-position: left;
+    background-position: 20% 30%;
 }
 .about_bg{
     background-image:url("../../img/bg/image4.jpg");

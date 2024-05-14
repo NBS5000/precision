@@ -35,3 +35,9 @@
     border-radius: 5px;
     transition-duration: 0.4s;
 }
+
+.btn_hollow:hover{
+    background-color: white;
+    color: var(--darkerBlue);
+    font-weight: bold;
+}

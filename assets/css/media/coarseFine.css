@@ -33,6 +33,9 @@
     .aoc_text{
         width: 100%;
     }
+    .input{
+        width: 75vw;
+    }
 }
 
 @media (pointer: fine){
