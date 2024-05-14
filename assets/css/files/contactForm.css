@@ -186,6 +186,7 @@ textarea.input {
     background-repeat: no-repeat;
     background-position: bottom left;
     padding: 5%;
+    width: 100%;
 }
 .info{
     height: fit-content;
