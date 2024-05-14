@@ -212,6 +212,7 @@ textarea.input {
 }
 .information p {
     margin-bottom: 0;
+    word-wrap: break-word;
 }
 
 .icon {
