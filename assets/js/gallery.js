@@ -29,6 +29,7 @@ const galleryItem = document.getElementsByClassName("gallery-item");
             }
             let imageLocation = galleryItem[index-1].children[0].getAttribute("src");
             lightBoxImg.setAttribute("src", imageLocation);
+            lightBoxImg.classList.add("lightbox_img");
 
         }
 

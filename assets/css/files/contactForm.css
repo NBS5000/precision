@@ -65,7 +65,7 @@ form {
 
 .input-container {
     position: relative;
-    margin: 1rem 0;
+    margin: 0 0 10px 0;
 }
 
 .input {
@@ -103,10 +103,23 @@ textarea.input {
     z-index: 1000;
     transition: 0.5s;
 }
+.inputTextArea label{
+    top:25%;
+}
 
-.input-container.textarea label {
-    top: 1rem;
+.input-container textarea label {
+    top: 0.1rem;
     transform: translateY(0);
+}
+.asterisk{
+    color: red;
+}
+.helper_text{
+    color: white;
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 5px;
+    display: inline-block;
 }
 /*
 .btn {

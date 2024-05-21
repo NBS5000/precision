@@ -36,6 +36,9 @@
     .input{
         width: 75vw;
     }
+    .gallery-item:hover {
+        filter: grayscale(0);
+    }
 }
 
 @media (pointer: fine){
