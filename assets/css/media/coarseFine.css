@@ -36,7 +36,7 @@
     .input{
         width: 75vw;
     }
-    .gallery-item:hover {
+    .gallery-item {
         filter: grayscale(0);
     }
 }
