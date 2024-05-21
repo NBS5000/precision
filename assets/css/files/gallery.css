@@ -80,6 +80,7 @@
     height: 70%;
 }
 .lightbox_portrait{
+    width: -moz-fit-content;
     width: fit-content;
     height: 70%;
 }
