@@ -74,6 +74,7 @@
     position: relative;
     margin: 5% auto;
     width: 100%;
+    display: flex;
 }
 .lightbox_landscape{
     width: 70%;
@@ -87,11 +88,10 @@
 .lightbox-content img {
     border-radius: 7px;
     box-shadow: 0 0 3px 0 rgba(225, 225, 225, .25);
-    width: auto;
-    height: 100%;
+
     object-fit: cover;
     display: block;
-    margin: 0 auto;
+    margin: auto;
 }
 .lightbox-prev,
 .lightbox-next {

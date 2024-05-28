@@ -39,6 +39,17 @@
     .gallery-item {
         filter: grayscale(0);
     }
+
+    .lightbox_landscape img{
+        width: 100%;
+        height: auto;
+        max-height: 100%;
+    }
+    .lightbox_portrait img{
+        width: auto;
+        height: 100%;
+        max-width: 100%;
+    }
 }
 
 @media (pointer: fine){
