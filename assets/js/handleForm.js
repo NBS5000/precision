@@ -19,9 +19,9 @@ inputs.forEach((input) => {
 
 
 document.addEventListener('DOMContentLoaded', (event) => {
-    document.getElementById("contactForm").addEventListener("submit", function(e) {
+    /*document.getElementById("contactForm").addEventListener("submit", function(e) {
         e.preventDefault() 
         //sendContactForm();
         checkForm(this);
-    });
+    });*/
 });
