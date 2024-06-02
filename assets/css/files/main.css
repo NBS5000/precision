@@ -123,3 +123,15 @@
     z-index: 5;
     position: relative
 }
+#thanksForMessage{
+    background: var(--darkerBlue);
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 450px;
+    padding: 10px;
+}
+#thanksForMessage h2{
+    color: white;
+}
