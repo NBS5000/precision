@@ -1,8 +1,8 @@
 .container {
     position: relative;
     width: 100%;
-    height: fit-content;
-    min-height: 80vh;
+    height: 300px;
+    /*min-height: 80vh;*/
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -17,8 +17,10 @@
     box-shadow: 0 0 20px 1px var(--softBlack);
     z-index: 1000;
     overflow: hidden;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: center;
+    /*display: grid;
+    grid-template-columns: repeat(2, 1fr);*/
 }
 
 .contact-form {
@@ -199,7 +201,7 @@ textarea.input {
     background-repeat: no-repeat;
     background-position: bottom left;
     padding: 5%;
-    width: 100%;
+    /*width: 100%;*/
 }
 .info{
     height: fit-content;

@@ -108,7 +108,7 @@
     height: 0;
 }
 .menuOptions{
-    background-color: var(--softBlack);
+    background-color: var(--softBlackAlpha);
     padding: 0;
 }
 .menuItem{
