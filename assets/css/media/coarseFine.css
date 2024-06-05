@@ -1,6 +1,9 @@
 /* css for generic touch screen device */
 
 @media (pointer: coarse){
+.banner_bg{
+  height:50vh;
+}
     .banner_heading {
         width: 90%;
         right: 5%;
