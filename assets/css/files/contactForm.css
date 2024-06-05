@@ -51,6 +51,14 @@ form {
     justify-content: space-between;
 }
 
+zapier-interfaces-page-embed{
+    width: 5000px;
+    max-width: 90vw;
+    margin: 0 auto;
+    background-color: red;
+
+}
+
 .title {
     font-size: 1.5rem;
     line-height: 1;
