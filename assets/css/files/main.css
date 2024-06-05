@@ -135,3 +135,11 @@
 #thanksForMessage h2{
     color: white;
 }
+#thankyou{
+    color: var(--darkerBlue);
+    display: block;
+    width: 80%;
+    margin:0 auto;
+    margin-bottom: 150px;
+    text-align: center;
+}

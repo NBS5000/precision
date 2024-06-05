@@ -52,11 +52,9 @@ form {
 }
 
 zapier-interfaces-page-embed{
-    width: 5000px;
+    width: 1000px;
     max-width: 90vw;
     margin: 0 auto;
-    background-color: red;
-
 }
 
 .title {

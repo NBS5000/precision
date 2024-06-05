@@ -24,7 +24,7 @@
     color: var(--softBlack);
 }
 .banner_bg{
-    height: 85lvh;
+    height: 85vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: end;
