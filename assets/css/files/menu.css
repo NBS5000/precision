@@ -127,9 +127,9 @@
     padding: 1rem;
 }
 
-#menuBurger.change ~ .theMenu .menuOptions{
-    /*width: 100%;
+/*#menuBurger.change ~ .theMenu .menuOptions{
+    width: 100%;
     text-align: center;
     position: absolute;
-    top: 0;*/
-}
+    top: 0;
+}*/
