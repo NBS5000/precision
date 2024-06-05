@@ -39,7 +39,7 @@
     .input{
         width: 75vw;
     }
-    .gallery-item {
+    .gallery-item img{
         filter: grayscale(0);
     }
 
