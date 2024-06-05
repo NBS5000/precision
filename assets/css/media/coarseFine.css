@@ -42,7 +42,6 @@
     .gallery-item img{
         filter: grayscale(0);
     }
-
     .lightbox_landscape img{
         width: 100%;
         height: auto;
