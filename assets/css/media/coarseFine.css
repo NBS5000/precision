@@ -1,6 +1,9 @@
 /* css for generic touch screen device */
 
 @media (pointer: coarse){
+    .banner_bg{
+        height:65vh;
+    }
     .banner_heading {
         width: 90%;
         right: 5%;
@@ -36,10 +39,9 @@
     .input{
         width: 75vw;
     }
-    .gallery-item {
+    .gallery-item img{
         filter: grayscale(0);
     }
-
     .lightbox_landscape img{
         width: 100%;
         height: auto;
