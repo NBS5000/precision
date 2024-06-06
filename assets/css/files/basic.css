@@ -67,8 +67,15 @@ h4,h5,p{
 .centerText{
     text-align: center;
 }
+.leftText{
+    text-align: left !important;
+}
 .width70{
     width: 70%;
+    margin: 0 auto;
+}
+.width90{
+    width: 90%;
     margin: 0 auto;
 }
 .test{

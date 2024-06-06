@@ -63,6 +63,9 @@
         margin-bottom: 0;
         width: 95%;
     }
+    .aboutContent .width70{
+        width: 90% !important;
+    }
 }
 
 @media (pointer: fine){
