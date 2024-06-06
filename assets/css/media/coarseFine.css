@@ -4,6 +4,10 @@
     .banner_bg{
         height:65vh;
     }
+    .home_bg{
+        background-image:url("../../img/bg/crane.jpg");
+        background-position: 30% 50%;
+    }
     .banner_heading {
         width: 90%;
         right: 5%;
