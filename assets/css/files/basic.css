@@ -33,6 +33,12 @@ h1,h2,h3,
 h4,h5,p{
     margin-bottom: 1rem;
 }
+.heading{
+    color: var(--darkerBlue);
+    text-align: center;
+    width: 100%;
+    display: block;
+}
 .marginBot_15rem{
     margin-bottom: 1.5rem;
 }
