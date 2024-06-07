@@ -111,7 +111,6 @@
     display: flex;
     flex-wrap: wrap;
     color: var(--softBlack);
-    /*margin-bottom: calc(80px - 1rem);*/
 }
 .pp_emphasise{
     font-weight: bold;
@@ -142,4 +141,12 @@
     margin:0 auto;
     margin-bottom: 150px;
     text-align: center;
+}
+
+zapier-interfaces-page-embed{
+    width: 1000px;
+    max-width: 95vw;
+    margin: 0 auto;
+    height:1000px;
+    padding:0;
 }

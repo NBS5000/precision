@@ -2,7 +2,6 @@
     position: relative;
     width: 100%;
     height: 400px;
-    /*min-height: 80vh;*/
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -19,8 +18,6 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
-    /*display: grid;
-    grid-template-columns: repeat(2, 1fr);*/
 }
 
 .contact-form {
@@ -51,13 +48,7 @@ form {
     justify-content: space-between;
 }
 
-zapier-interfaces-page-embed{
-    width: 1000px;
-    max-width: 95vw;
-    margin: 0 auto;
-    height:1000px;
-    padding:0;
-}
+
 
 .title {
     font-size: 1.5rem;
@@ -131,27 +122,6 @@ textarea.input {
     margin-bottom: 5px;
     display: inline-block;
 }
-/*
-.btn {
-    padding: 0.6rem 1.3rem;
-    background-color: #fff;
-    border: 2px solid #fafafa;
-    font-size: 0.95rem;
-    color: var(--darkerBlue);
-    line-height: 1;
-    border-radius: 5px;
-    outline: none;
-    cursor: pointer;
-    transition: 0.3s;
-    margin: 0;
-    width: 100%;
-}
-
-.btn:hover {
-    background-color: transparent;
-    color: #fff;
-}
-*/
 .input-container span {
     position: absolute;
     top: 0;
@@ -200,7 +170,6 @@ textarea.input {
 
 .contact-info {
     position: relative;
-    /*background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url("../../img/mel.jpg");*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -209,7 +178,6 @@ textarea.input {
     background-repeat: no-repeat;
     background-position: bottom left;
     padding: 5%;
-    /*width: 100%;*/
 }
 .info{
     height: fit-content;
@@ -246,7 +214,6 @@ textarea.input {
 
 .social-media {
     margin-top: 2rem;
-    /*padding: 2rem 0 0 0;*/
 }
 
 .social-media p {

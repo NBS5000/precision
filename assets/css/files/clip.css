@@ -12,7 +12,6 @@
 }
 .clip-top_left{
     width: 100%;
-    /*padding-top: 20px;*/
     clip-path: polygon(
         1% 100%,
         100% 100%,    

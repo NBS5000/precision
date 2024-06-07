@@ -1,20 +1,13 @@
 
 .gallery-container {
-    /*display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;*/
-    
     display: grid;
-    /*grid-template-rows: 400px 300px 500px 450px;*/
     gap: 20px;
     grid-template-columns: auto auto auto;
     align-content: start;
-    
     width: 80% !important;
     margin: 0 auto;
 }
 .gallery-item {
-    /*flex-basis: 32.7%;*/
     margin: 10px;
     width: 100%;
 }
@@ -64,11 +57,6 @@
 .gallery-content {
     font-size: .8em;
 }
-
-
-
-
-
 .lightbox {
     position: fixed;
     display: none;
