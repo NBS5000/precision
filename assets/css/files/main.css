@@ -150,3 +150,37 @@ zapier-interfaces-page-embed{
     height:1000px;
     padding:0;
 }
+
+.aboutTitle{
+    background-color: var(--softBlack);
+    clip-path: polygon(
+        calc(-150% - 70px) 100%,
+        100% 0%,
+        100% calc(100% - 70px),
+        0% 101%
+    );
+    padding: 70px 0;
+}
+.aboutTitle h3{
+    color:white;
+    text-align: center;
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+}
+.aboutText{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+.aboutText p{
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+}
+.aboutImg{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+}
