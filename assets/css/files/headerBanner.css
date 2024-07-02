@@ -29,7 +29,7 @@
     justify-content: end;
 }
 .home_bg{
-    background-image:url("../../img/bg/crane3.jpg");
+    background-image:var(--headerBgImg);
     background-position: 60% 70%;
     
 }

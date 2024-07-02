@@ -66,6 +66,9 @@
     .aboutContent .width70{
         width: 90% !important;
     }
+    .logo{
+        margin-left: 10px;
+    }
 }
 
 @media (pointer: fine){
