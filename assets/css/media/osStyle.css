@@ -2,9 +2,19 @@
     /* CSS specific to iOS devices */ 
 }
 
+
 @supports not (-webkit-touch-callout: none) {
     /* CSS for other than iOS devices */
-    .image-bg{
-        background-attachment: fixed;
+    @media (pointer: fine) {
+        /* for desktop */
+        .image-bg{
+            background-attachment: fixed;
+        }
+    }
+    @media (pointer: coarse) {
+        /* for desktop */
+        .image-bg{
+            background-attachment: initial;
+        }
     }
 }

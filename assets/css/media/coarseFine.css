@@ -2,11 +2,13 @@
 
 @media (pointer: coarse){
     .banner_bg{
-        height:65vh;
+        height:75vh;
     }
     .home_bg{
-        background-image:url("../../img/bg/crane.jpg");
-        background-position: 30% 50%;
+        background-position: bottom;
+    }
+    .image-bg.banner_bg{
+        background-attachment: initial;
     }
     .banner_heading {
         width: 90%;
@@ -21,6 +23,11 @@
     .theMenu.change{
         width:100vw;
         left: 0;
+    }
+    .menuContainer.change{
+        position: absolute;
+        left:20px;
+
     }
     .theMenu.change .menuOptions{
         width: 100vw;
