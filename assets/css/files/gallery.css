@@ -6,6 +6,7 @@
     align-content: start;
     width: 80% !important;
     margin: 0 auto;
+    max-width:1000px;
 }
 .gallery-item {
     margin: 10px;
@@ -38,6 +39,18 @@
 .item9{
     grid-column: 2 / span 2;
     grid-row: 4;
+}
+.item10{
+    grid-column: 3;
+    grid-row: 3;
+}
+.item11{
+    grid-column: 1 / span 2;
+    grid-row: 5 / span 2;
+}
+.item12{
+    grid-column: 3;
+    grid-row: 5 / span 2;
 }
 .gallery-item img:hover {
     filter: grayscale(0);
