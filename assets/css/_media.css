@@ -1,0 +1,124 @@
+@charset "UTF-8";
+@media (pointer: coarse) {
+  .banner_bg {
+    height: 75vh;
+  }
+  .banner_bg .image-bg {
+    background-attachment: initial;
+  }
+  .home_bg {
+    background-position: bottom;
+  }
+  .banner_heading {
+    width: 90%;
+    right: 5%;
+  }
+  #menuBurger {
+    display: block;
+  }
+  #menuWord {
+    display: none;
+  }
+  .change.theMenu {
+    width: 100vw;
+    left: 0;
+    scale: 0.8;
+  }
+  .change.theMenu .menuOptions {
+    width: 100vw;
+    left: 0;
+    text-align: center;
+    position: absolute;
+    top: -2rem;
+    padding: 2rem 0;
+    background-color: #282828;
+  }
+  .change.menuContainer {
+    position: absolute;
+    left: 20px;
+  }
+  .logo,
+  .homeBlurb_text h3,
+  .aoc_flags {
+    scale: 0.8;
+  }
+  .contentLink,
+  .aoc_text {
+    width: 100%;
+  }
+  .input {
+    width: 75vw;
+  }
+  .gallery-item img {
+    filter: grayscale(0);
+  }
+  .lightbox_landscape img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+  }
+  .lightbox_portrait img {
+    width: auto;
+    height: 100%;
+    max-width: 100%;
+  }
+  .list {
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 2rem auto;
+    margin-bottom: 0;
+    width: 95%;
+  }
+  .aboutContent .width70 {
+    width: 90% !important;
+  }
+  .logo {
+    margin-left: 10px;
+  }
+}
+@media (pointer: fine) {
+  #menuBurger {
+    display: block;
+  }
+  #menuWord {
+    display: none;
+  }
+  .lightbox_landscape img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+  }
+  .lightbox_portrait img {
+    width: auto;
+    height: 100%;
+    max-width: 100%;
+  }
+}
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */
+}
+@supports not (-webkit-touch-callout: none) {
+  /* CSS for other than iOS devices */
+  @media (pointer: fine) {
+    /* for desktop */
+    .image-bg {
+      background-attachment: fixed;
+    }
+  }
+  @media (pointer: coarse) {
+    /* for desktop */
+    .image-bg {
+      background-attachment: initial;
+    }
+  }
+}
+/* On screens that are less than 800px wide*/
+@media screen and (max-width: 800px) {
+  .banner_heading {
+    width: 90%;
+    right: 5%;
+  }
+  .banner_h1 {
+    font-size: 2rem;
+  }
+}/*# sourceMappingURL=_media.css.map */

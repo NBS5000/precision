@@ -1,0 +1,17 @@
+// Import variables and mixins first (no output generated)
+@use 'partials/variables' as *;
+@use 'partials/basic';
+@use 'partials/media';
+@use 'partials/gallery';
+@use 'partials/menu';
+@use 'partials/button';
+@use 'partials/clip';
+@use 'partials/contactForm';
+@use 'partials/footer';
+@use 'partials/headerBanner';
+@use 'partials/logo';
+@use 'partials/modal';
+@use 'partials/tws';
+
+// Import the main styles
+@use 'partials/styles';
