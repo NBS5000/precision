@@ -1,0 +1,40 @@
+@use 'variables' as *;
+
+.header{
+  height: 160px;
+  background-color: black;
+}
+.banner_heading{
+  align-self: flex-end;
+  height: 30%;
+  float: right;
+  font-weight: 900;
+  display: flex;
+  align-items: flex-end;
+  width: 50%;
+  color: white;
+  padding-right:12.5%;
+  
+}
+.banner_h1{
+  width: 100%;
+  font-size: 2.5rem;
+  text-align: right;
+  display: block;
+  padding: 1rem;
+  color: $softBlack;
+}
+.banner_bg{
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+.home_bg{
+  background-image:$headerBgImg;
+  background-position: 60% 70%;
+  
+}
+.about_bg{
+  background-image:url("../img/bg/image4.jpg");
+}
